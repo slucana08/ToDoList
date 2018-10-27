@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddTaskActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="New Task"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/addTaskTextView"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Task"
+        android:layout_gravity="center"
+        android:ems="10"/>
+
+    <EditText
+        android:id="@+id/addDescriptionTextView"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Description"
+        android:layout_gravity="center"
+        android:ems="10"/>
+
+    <Button
+        android:id="@+id/addTaskButton"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Add new Task"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</ScrollView>
