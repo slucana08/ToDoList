@@ -17,6 +17,7 @@ public class TaskAdapter extends ArrayAdapter <Tasks> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+        final DBHelper myDB = new DBHelper(getContext());
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
